@@ -5,7 +5,7 @@ const path = require('path');
 const filePath = path.join(__dirname, 'demo.txt');
 
 //  Step 1: Create and Write data to the file
-const dataToWrite = 'A1,B2,C3,D4,E5,F6,G7,H8,I9,J0';
+const dataToWrite = 'A1,B2,C3,D4,E5,F6,G7,H8,I9,J0,saikrishna botcha';
 fs.writeFileSync(filePath, dataToWrite, 'utf-8');
 console.log('File created and data written.');
 
