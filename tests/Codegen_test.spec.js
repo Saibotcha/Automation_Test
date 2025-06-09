@@ -25,7 +25,6 @@ test('demoqa', async ({ page }) => {
   await page.locator('#subjectsInput').fill('no');
   await page.getByText('Economics', { exact: true }).click();
   await page.getByText('Sports').click();
-  //await page.getByRole('textbox', { name: 'Select picture' }).click();
   await page.getByRole('textbox', { name: 'Current Address' }).click();
   await page.getByRole('textbox', { name: 'Current Address' }).fill('no');
   await page.locator('#state svg').click();
