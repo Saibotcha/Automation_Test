@@ -1,6 +1,6 @@
 import {test,expect} from "@playwright/test";
 
-test('Test_demo', async({page}) => {
+test('opencart', async({page}) => {
 
     await page.goto('https://opencart.abstracta.us/')
     await page.click('a[href="http://opencart.abstracta.us:80/index.php?route=product/category&path=24"]')
